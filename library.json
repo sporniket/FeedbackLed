@@ -1,0 +1,29 @@
+{
+    "name": "FeedbackLed",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, model of LED with a set of animations to provide visual feedback",
+    "keywords": "animation, sequence, led",
+    "dependencies": {
+        "sporniket/AnimatedValues":"~0.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/FeedbackLed"
+    },
+    "authors": [
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks": "*",
+    "platforms": "*"
+}
