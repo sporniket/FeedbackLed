@@ -29,19 +29,19 @@ void onTimerLed() {
 // ==== some callbacks to manage behavior ====
 void onBootstrap() {
     // do stuff...
-    mainLed.setFeedbackSequenceAndLoop(FeedbackSequence.BLINK_ONCE) ;
+    mainLed.setFeedbackSequenceAndLoop(FeedbackSequence::BLINK_ONCE) ;
     // do stuff...
 }
 
 void onReady() {
     // do stuff...
-    mainLed.setFeedbackSequenceOnce(FeedbackSequence.ON) ;
+    mainLed.setFeedbackSequenceOnce(FeedbackSequence::ON) ;
     // do stuff...
 }
 
 void onSentData() {
     // do stuff...
-    mainLed.setFeedbackSequenceOnce(FeedbackSequence.FALTER_THRICE) ;
+    mainLed.setFeedbackSequenceOnce(FeedbackSequence::FALTER_THRICE) ;
     // do stuff...
 }
 
